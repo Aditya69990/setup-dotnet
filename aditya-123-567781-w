@@ -1,0 +1,52 @@
+Skip to content
+actions
+/
+setup-dotnet
+Public
+Code
+Issues
+14
+Pull requests
+2
+Actions
+Projects
+Security
+Insights
+setup-dotnet/.github/csc.json
+@StanleyGoldman
+StanleyGoldman Update csc.json
+ 2 contributors
+ 18 lines (18 sloc)  504 Bytes
+{
+    "problemMatcher": [
+        {
+            "owner": "csc",
+            "pattern": [
+                {
+                    "regexp": "^([^\\s].*)\\((\\d+)(?:,\\d+|,\\d+,\\d+)?\\):\\s+(error|warning)\\s+([a-zA-Z]+(?<!MSB)\\d+):\\s*(.*?)\\s+\\[(.*?)\\]$",
+                    "file": 1,
+                    "line": 2,
+                    "severity": 3,
+                    "code": 4,
+                    "message": 5,
+                    "fromPath": 6
+                }
+            ]
+        }
+    ]
+}
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+setup-dotnet/csc.json at e-korolevskii-patch-1 · actions/setup-dotnet
